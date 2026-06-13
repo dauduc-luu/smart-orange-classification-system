@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Output files
+*.mp4
+*.avi
+*.mov
+*.log
+
+# Dataset
+data/
+datasets/
+
+# Model weights
+*.pt
+*.onnx
