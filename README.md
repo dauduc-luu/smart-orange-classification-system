@@ -14,27 +14,27 @@ The system is designed as a practical prototype for smart agriculture applicatio
 
 ### Hardware Setup
 
-![Hardware Setup](assets/demo_images/hardware_setup.jpg)
+![Hardware Setup](assets/demo_images/hardware_setup%20%281%29.jpg)
 
 ### Sorting Mechanism
 
-![Sorting Mechanism](assets/demo_images/sorting_mechanism.jpg)
+![Sorting Mechanism](assets/demo_images/hardware_setup%20%282%29.jpg)
 
 ### Output Bins
 
-![Output Bins](assets/demo_images/output_bins.jpg)
+![Output Bins](assets/demo_images/hardware_setup%20%283%29.jpg)
 
 ### Live Monitoring - OK and Defect Detection
 
-![Live Monitoring - OK and Defect Detection](assets/demo_images/live_monitoring_ok_and_defect.png)
+![Live Monitoring - OK and Defect Detection](assets/demo_images/live_monitoring_ok_and_defect%20%281%29.png)
 
 ### Live Monitoring - Defect Detection
 
-![Live Monitoring - Defect Detection](assets/demo_images/live_monitoring_defect_detection.png)
+![Live Monitoring - Defect Detection](assets/demo_images/live_monitoring_defect_detection.png.png)
 
 ### Analytics Dashboard
 
-![Analytics Dashboard](assets/demo_images/analytics_dashboard.png)
+![Analytics Dashboard](assets/demo_images/analytics_dashboard.png.png)
 
 > Note: The screenshots above show the monitoring and analytics interface used for system demonstration.
 > The current repository mainly focuses on the computer vision pipeline, Raspberry Pi streaming and microcontroller-based sorting control.
@@ -93,7 +93,8 @@ smart-orange-classification-system/
 │   └── README.md
 ├── src/
 │   ├── laptop/
-│   │   └── main_detect_sort.py
+│   │   ├── main_detect_sort.py
+│   │   └── experiments/
 │   ├── raspberry_pi/
 │   │   └── pi_stream_control.py
 │   └── arduino/
